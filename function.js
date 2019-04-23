@@ -1,6 +1,6 @@
  // Задача №1: Написать функцию, которая будет выводить состав коктейля виде HTML. Done!
   var  compositionMojito = {
-	"Белый ром" : 60,
+    "Белый ром" : 60,
     "Сок лайма" : 45,
     "Коричневый сахар" : 20,
     "Мята" : 20,
@@ -42,9 +42,9 @@ console.log(createMenu(menu,"menu","menu__item","submenu", "submenu__item"));
 // Возможно вытягивать информацию с массива снизу верх?
 /*function menu (choice) {
 	var   menuMcdonalds = {
-	     "drinks" : {
+	 "drinks" : {
 		            "coca-cola" : 1,
-                     "sprite"	: 2
+                             "sprite"	: 2
 	                },
          "food"	: {
 		             "sandwich" : 2,
