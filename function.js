@@ -29,7 +29,7 @@ function createMenu (menuData, ulClass,liClass,subUlClass, subLiClass) {
 		 menuList += "\n\t<li class = \"" + liClass +"\"" + ">" + fileName +  "</li>";
 		 }
 	 for (var subFileName in fileName){
-			  menuList += "\n\t\t<li class = \"" + subLiClass +"\"" + ">"+ menu[fileName] + "</li>";
+	         menuList += "\n\t\t<li class = \"" + subLiClass +"\"" + ">"+ menu[fileName] + "</li>";
 	 }
 	menuList += "\n</ul>";
 	return menuList;
