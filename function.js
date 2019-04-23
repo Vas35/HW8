@@ -68,4 +68,4 @@ function getCredit (num1,num2,num3){
 	        creditPayment = Math.round(num1 * num2 / num3);
 	return creditPayment;
 }
-console.log("Месячная плата по кредиту:",getCredit(10000,0.1,12));
+console.log("Месячная плата по кредиту:",getCredit(10000,0.1,12) + " грн");
